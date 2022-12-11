@@ -3,3 +3,20 @@
   margin: 0 auto;
   position: relative;
 }
+@media screen and (max-width: 1100px) {
+  .footer {
+    margin: 0 48px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .footer {
+    margin: 0 24px;
+  }
+}
+@media screen and (max-width: 665px) {
+  .footer {
+    position: static;
+    max-width: 186px;
+    margin-left: 16px;
+  }
+}
