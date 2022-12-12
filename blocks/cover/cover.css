@@ -1,28 +1,22 @@
 .cover {
-  padding-top: 245px;
-  box-sizing: border-box;
   max-width: 1184px;
   min-height: 720px;
+  height: 1px;
   margin: 0 auto 92px;
   position: relative;
-  background-image: url(../../images/__background.png);
-  background-size: 100%;
-  background-repeat: no-repeat;
+  box-sizing: border-box;
 }
 @media screen and (max-width: 1100px) {
   .cover {
     min-height: 640px;
-    padding-top: 195px;
   }
 }
 @media screen and (max-width: 999px) {
   .cover {
     min-height: 480px;
-    padding-top: 115px;
   }
 }@media screen and (max-width: 665px) {
   .cover {
     min-height: 200px;
-    padding-top: 33px;
   }
 }

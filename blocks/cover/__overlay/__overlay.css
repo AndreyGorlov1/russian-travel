@@ -1,13 +1,25 @@
 .cover__overlay {
+  background-image: url(../../../images/__background.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  display: grid;
+  gap: 18px;
+  cursor: pointer;
+}
+.cover__overlay::before {
+  content: '';
+  background-color: #2A2B2C;
   width: 100%;
   height: 100%;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: 1;
   opacity: 0.3;
-  cursor: pointer;
 }
-.cover__overlay:hover {
+.cover__overlay:hover::before {
   opacity: 0.8;
 }
