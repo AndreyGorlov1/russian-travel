@@ -6,4 +6,4 @@
 1. Технология Grid,  
 2. Медиа - запросы.  
 -----
-Ссылка на сайт: [Сам делал](https://andreygorlov1.github.io/russian-travel/) <-- Тыкать сюда!
+Ссылка на сайт: [Сам делал](https://andreygorlov1.github.io/russian-travel/index.html) <-- Тыкать сюда!
